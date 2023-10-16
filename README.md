@@ -24,7 +24,7 @@ Blog Central is a personal blog website that serves as your platform to share yo
 Contributions are welcome! If you have any improvements or feature suggestions, please open an issue or create a pull request.
 
 ## Contact
-Have questions or suggestions? Feel free to [contact us](mailto:smithnunes1205@gmail.com).
+Have questions or suggestions? Feel free to [contact me](mailto:smithnunes1205@gmail.com).
 
 ---
 
