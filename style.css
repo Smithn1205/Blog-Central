@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --dark: #4b0064;
+    --exDark: #ffffff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--Quicksand);
+}
+body{
+    line-height: 1.4;
+    color: var(--dark);
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+header{
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.navbar{
+    background-color: #4b0064;
+    padding: 1.2rem;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.navbar-nav{
+    padding: 0.8rem 0 0.2rem 0;
+    text-align: center;
+}
+.navbar-nav a{
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4rem 0.1rem;
+    letter-spacing: 3px;
+    transition: opacity 0.5s ease;
+}
+.navbar-nav a:hover{
+    opacity: 0.7;
+}
+
+footer{
+    background: var(--dark);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+.social-links a{
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+    background: #fff;
+    color: var(--dark);
+}
+.footer span{
+    margin-top: 1rem;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.banner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-image: url(images/homepage.jpeg);
+    background-size: cover;
+}
+.banner-title{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+.banner-title span{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--exDark);
+}
+.banner p{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    word-spacing: 3px;
+    color: #7c7c7c;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 30px;
+}
+.banner form{
+    background: #fff;
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+.title h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.4rem;
+}
+.title p{
+    text-transform: uppercase;
+    padding: 0.6rem 0;
+}
+
+.blog{
+    background: #f9f9f9;
+    padding: 4.5rem 0;
+    color: black;
+}
+.blog-content{
+    margin: 2rem 0;
+}
+.blog-img{
+    position: relative;
+}
+.blog-img span{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: var(--exDark);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.3rem 0.6rem;
+}
+.blog-text{
+    margin: 2.2rem 0;
+    padding: 0 1rem;
+}
+.blog-text span{
+    font-weight: 300;
+    display: block;
+    padding-bottom: 0.5rem;
+}
+.blog-text h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem 0;
+    font-size: 1.65rem;
+    font-weight: 500;
+    font-weight: bold;
+}
+.blog-text p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    padding-bottom: 1.2rem;
+}
+.blog-text a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--exDark);
+    display: inline-block;
+    background: var(--exDark);
+    color: #4b0064;
+    padding: 0.55rem 1.2rem;
+    border: 2px solid var(--dark);
+    transition: all 0.5s ease;
+}
+.blog-text a:hover{
+    background: var(--dark);
+    color: #fff;
+}
+
+.about{
+    padding: 4.5rem 0;
+}
+.about-text{
+    margin: 2rem 0;
+}
+
+.about-text h2{
+    color: black;
+}
+
+.about-text p{
+    font-size: 1.1rem;
+    padding: 0.6rem 0;
+    opacity: 0.8;
+    color: black;
+}
+
+.navbar-nav a{
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+}
+.banner-title{
+    font-size: 5rem;
+}
+.banner form{
+    margin-top: 1.4rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.blog-content{
+    grid-template-columns: repeat(3, 1fr);
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    align-items: center;
+}
+
+.contact-form, .contact-details {
+    margin-top: 80px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contact-form h2, .contact-details h2 {
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #8000ab;
+    color: #ffffff;
+    border: 2px solid var(--dark);
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: 200px;
+}
+button:hover{
+    background: var(--exDark);
+    color: #4b0064;
+}
